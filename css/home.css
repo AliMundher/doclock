@@ -80,12 +80,12 @@ span:hover {
 
 .numbers>span {
     text-align: center;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background-color: #fff;
     margin: auto;
-    line-height: 31px;
+    line-height: 43px;
     font-weight: bold;
     cursor: pointer;
     transition: all .4s ease-in-out;
