@@ -106,6 +106,22 @@ span:hover {
     color: white;
 }
 
+.bg_icon .fa-arrow-left {
+    transition: all .4s ease-in-out;
+}
+
+.bg_icon .fa-arrow-left:hover {
+    margin-left: -24px;
+}
+
+.bg_icon .fa-times {
+    transition: all .4s ease-in-out;
+}
+
+.bg_icon .fa-times:hover {
+    transform: rotate(360deg);
+}
+
 .line {
     position: fixed;
     bottom: 22px;
