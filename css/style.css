@@ -1,0 +1,58 @@
+.mainColor, body .folder__icon {
+  color: #47a6fe;
+}
+
+body .folder {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  text-align: center;
+  padding: 150px;
+}
+
+body .folder__icon {
+  font-size: 4em;
+}
+
+body .folder__text {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+body .folder__doc {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+body .folder__btn {
+  position: fixed;
+  bottom: 30px;
+  left: 35%;
+  width: 110px;
+  background-color: transparent;
+  border: 2px solid #ddd;
+  border-radius: 100px;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  color: #ddd;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+body .folder__line {
+  position: fixed;
+  bottom: 14px;
+  left: 36%;
+  background-color: black;
+  width: 25%;
+  height: 3px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
